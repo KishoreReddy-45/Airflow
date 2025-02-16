@@ -44,7 +44,7 @@ def load(**kwargs):
 default_args = {
     'owner': 'airflow',
     'start_date': datetime(2024, 2, 9),
-    'retries': 1,
+    'retries': 2,
 }
 
 with DAG(
